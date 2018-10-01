@@ -23,13 +23,5 @@ Technologies Used:
     2. Hit F5 or the "IIS Express" button on the toolbar
         1. NOTE: The first time it is run, it will download and install supporting packages, this can take up to 10 minutes
         2. If you get a build error related to a "Missing building" with node-sass, then create a command window in your project directory and type "npm rebuild node-sass", run the command and rebuild
-    The app should build and open in a browser
-4. Use Application
-Once the application starts, add several movies, use the edit and delete features
-## Expand the features
-Use this as a starting point for new features
-* Expand the data to include cast and characters
-* Add more properties to the movies like ratings or trailer URL
-* Add movie Posters
-* Update the UI to include sorting or searching
-* Use OMDb API to add movies
+    3. The application should build and open in a browser.  It will have menu and copyright line.
+4. Start the tutorial
