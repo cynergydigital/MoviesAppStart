@@ -21,6 +21,8 @@ Technologies Used:
 3. Run Solution
     1. Open "MoviesApp.Sln" on the Solution Explorer
     2. Hit F5 or the "IIS Express" button on the toolbar
+        1. NOTE: The first time it is run, it will download and install supporting packages, this can take up to 10 minute
+        2. If you get a build error related to a "Missing building" with node-sass, then create a command window in your project directory and type "npm rebuild node-sass", run the command and rebuild
     The app should build and open in a browser
 4. Use Application
 Once the application starts, add several movies, use the edit and delete features
