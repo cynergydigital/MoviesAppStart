@@ -21,22 +21,21 @@
 		name: 'app',
 		data() {
 			return {
-				movies: []
+				movies: [
+					{
+						title: 'Avengers: Infinity War',
+						year: '2018',
+						director: 'Anthony Russo',
+						description: 'The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.'
+					},
+					{
+						title: 'The Last Jedi',
+						year: '2017',
+						director: 'Rian Johnson',
+						description: 'Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.'
+					}
+				]
 			};
-		},
-		mounted() {
-			this.getMovies();
-		},
-		methods: {
-			getMovies() {
-				axios({
-					method: 'GET', 'url': '/api/movies'
-				}).then(result => {
-					this.movies = result.data;
-				}, error => {
-					console.error(error);
-				});
-			}
 		}
 	}
 </script>
